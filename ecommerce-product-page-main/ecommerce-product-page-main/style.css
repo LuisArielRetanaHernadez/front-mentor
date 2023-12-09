@@ -13,10 +13,10 @@
   --hsl-black: 0, 0%, 0%;
 
   /* font-family */
-  --family-kumbh: 'Kumbh'
+  --family-kumbh: 'Kumbh Sans', sans-serif;
 
   /* font-size */
-  --size-16: 16px
+  --size-16: 16px;
 }
 
 body, * {
@@ -26,6 +26,7 @@ body, * {
 
   font-family: var(--family-kumbh);
   font-size: var(--size-16);
+  /* font-weight: 400; */
 }
 
 a {
@@ -56,4 +57,5 @@ ul, ol {
 
 .nav-header__menu-list > li{
   display: inline-block;
+  margin: 0 auto;
 }
