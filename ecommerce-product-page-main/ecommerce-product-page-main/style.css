@@ -106,3 +106,7 @@ ul, ol {
   border: 1px solid hsl(var(--hsl-orange));
 }
 
+.icon--rounded-full {
+  border-radius: 50%;
+}
+
