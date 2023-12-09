@@ -1,3 +1,16 @@
+:root {
+  /* colors */
+  --hsl-orange: 26, 100%, 55%;
+  --hsl-pale-orange: 25, 100%, 94%;
+
+  /* neutral */
+  --hsl-very-dark-blue: 220, 13%, 13%;
+  --hsl-dark-grayish-blue: 219, 9%, 45%;
+  --hsl-grayish-blue: 223, 64%, 98%;
+  --hsl-white: 0, 0%, 100%;
+  --hsl-black: 0, 0%, 0%;
+}
+
 body, * {
   margin: 0;
   padding: 0;
