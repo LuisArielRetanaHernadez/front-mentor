@@ -48,7 +48,12 @@ ul, ol {
 }
 
 .nav-header__menu {
+  background-color: red;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.nav-header__menu-list > li{
+  display: inline-block;
 }
