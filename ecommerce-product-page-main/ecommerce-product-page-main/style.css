@@ -49,6 +49,11 @@ ul, ol {
   height: 110px;
 }
 
+.nav-header--medimun {
+  width: 85%;
+  margin: auto;
+}
+
 .nav-header__menu {
   height: 100%;
   display: flex;
@@ -92,3 +97,4 @@ ul, ol {
   height: 100%;
   object-fit: cover;
 }
+
