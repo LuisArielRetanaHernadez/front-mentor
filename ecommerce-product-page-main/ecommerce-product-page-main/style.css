@@ -49,7 +49,7 @@ ul, ol {
 }
 
 .nav-header__menu {
-  background-color: red;
+  background-color: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,4 +59,8 @@ ul, ol {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.nav-header__link { 
+  color: hsl(var(--hsl-dark-grayish-blue));
 }
