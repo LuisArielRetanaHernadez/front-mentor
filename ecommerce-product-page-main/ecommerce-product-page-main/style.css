@@ -55,7 +55,8 @@ ul, ol {
   justify-content: space-between;
 }
 
-.nav-header__menu-list > li{
-  display: inline-block;
-  margin: 0 auto;
+.nav-header__menu-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
