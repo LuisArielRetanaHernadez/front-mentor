@@ -98,3 +98,11 @@ ul, ol {
   object-fit: cover;
 }
 
+.icon--hover-border {
+  transition: all .2;
+}
+
+.icon--hover-border:hover {
+  border: 1px solid hsl(var(--hsl-orange));
+}
+
