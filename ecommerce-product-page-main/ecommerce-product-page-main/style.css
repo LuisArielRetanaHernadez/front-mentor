@@ -114,6 +114,10 @@ ul, ol {
   height: 25px;
 }
 
+.icon--cart-count {
+  position: relative;
+}
+
 .icon--hover-border {
   transition: all .2;
 }
@@ -133,7 +137,14 @@ ul, ol {
 }
 
 .icon__count {
+  font-size: 11px;
+  color: hsl(var(--hsl-white));
+  padding: 1px 8px;
+  border-radius: 10px;
+  background: hsl(var(--hsl-orange));
   position: absolute;
+  bottom: 15px;
+  right: -10px;
 }
 
 
