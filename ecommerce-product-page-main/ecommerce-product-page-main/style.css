@@ -28,6 +28,13 @@ body, * {
   font-size: var(--size-16);
 }
 
+a {
+  text-decoration: none;
+}
+ul, ol {
+  list-style: none;
+}
+
 /* -------- header -------- */
 .header {
   width: 100%;
