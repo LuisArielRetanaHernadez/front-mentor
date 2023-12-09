@@ -53,6 +53,19 @@ ul, ol {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+}
+
+.nav-header__menu {
+  border-bottom: 1px solid black;
+}
+
+.block-slider {
+  width: 45px;
+  height: 5px;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
 }
 
 .nav-header__menu-list {
