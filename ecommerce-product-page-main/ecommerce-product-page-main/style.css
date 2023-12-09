@@ -105,7 +105,7 @@ ul, ol {
 }
 
 .icon--hover-border:hover {
-  border: 1px solid hsl(var(--hsl-orange));
+  border: 2px solid hsl(var(--hsl-orange));
 }
 
 .icon--rounded-full {
