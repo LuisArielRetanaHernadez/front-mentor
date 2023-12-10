@@ -114,6 +114,14 @@ ul, ol {
   height: 25px;
 }
 
+.icon--hover-black {
+  transition: all .2s;
+}
+
+.icon--hover-black:hover {
+  color: red;
+}
+
 .icon--cart-count {
   position: relative;
 }
@@ -146,6 +154,7 @@ ul, ol {
   bottom: 15px;
   right: -10px;
 }
+
 
 
 
