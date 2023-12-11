@@ -204,6 +204,11 @@ ul, ol {
   right: -10px;
 }
 
+.price {
+  color: hsl(var(--hsl-black));
+  font-weight: 700;
+}
+
 /* ......... utils ........ */
 
 .relative {
