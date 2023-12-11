@@ -139,6 +139,7 @@ ul, ol {
   height: 100%;
   object-fit: cover;
 }
+
 /* icon */
 .icon {
   width: 50px;
@@ -215,4 +216,13 @@ ul, ol {
 
 .aling-center {
   align-items: center;
+}
+
+
+.rounded-5 {
+  border-radius: 5px;
+}
+
+.rounded-inherit {
+  border-radius: inherit;
 }
