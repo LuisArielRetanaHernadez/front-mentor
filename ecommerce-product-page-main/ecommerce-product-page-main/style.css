@@ -78,7 +78,7 @@ ul, ol {
 .nav-header__menu-list {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 35px;
 }
 
 .nav-header__icon {
@@ -104,7 +104,8 @@ ul, ol {
 
 /* mobal carrito */
 .mobal-cart {
-  width: 250px;
+  min-width: 340px;
+  max-width: 350px;
   padding: 1rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
@@ -120,17 +121,8 @@ ul, ol {
 }
 
 .mobal-cart__item {
-  display: flex;
-
-}
-
-.mobal-cart__item {
   height: 50px;
   max-height: 50px;
-}
-
-.mobal-cart__item--mt-1rm {
-  margin-top: 1rem;
 }
 
 .mobal-cart__content {
@@ -143,6 +135,7 @@ ul, ol {
   height: 100%;
   object-fit: cover;
 }
+
 
 /* icon */
 .icon {
@@ -224,6 +217,10 @@ ul, ol {
 
 .relative {
   position: relative;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
