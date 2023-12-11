@@ -39,7 +39,6 @@ ul, ol {
 /* -------- header -------- */
 .header {
   width: 100%;
-  padding: .2rem 1rem;
 }
 
 /* .... menu header .... */
@@ -47,9 +46,10 @@ ul, ol {
 .nav-header {
   width: 100%;
   height: 110px;
+  position: relative;
 }
 
-.nav-header--medimun {
+.nav-header--menu-medimun {
   width: 85%;
   margin: auto;
 }
@@ -67,11 +67,12 @@ ul, ol {
 }
 
 .block-slider {
-  width: 55px;
+  /* width: 55px; */
   height: 4px;
   background: hsl(var(--hsl-orange));
   position: absolute;
   bottom: 0;
+  transition: all .2s;
 }
 
 .nav-header__menu-list {
@@ -94,7 +95,7 @@ ul, ol {
 }
 
 .nav-header__link--hover-black {
-  transition: all .2s;
+  transition: all .5s;
 }
 
 .nav-header__link--hover-black:hover {
