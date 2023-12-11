@@ -223,12 +223,16 @@ ul, ol {
   flex-direction: column;
 }
 
-.color-gray {
-  color: hsl(var(--hsl-dark-grayish-blue));
+.just-between {
+  justify-content: space-between;
 }
 
 .aling-center {
   align-items: center;
+}
+
+.color-gray {
+  color: hsl(var(--hsl-dark-grayish-blue));
 }
 
 .mt-1rm {
