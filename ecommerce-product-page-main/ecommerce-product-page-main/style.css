@@ -102,6 +102,15 @@ ul, ol {
   color: hsl(var(--hsl-black));
 }
 
+/* mobal carrito */
+.mobal-cart {
+  width: 200px;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  position: absolute;
+}
+
 /* icon */
 .icon {
   width: 50px;
@@ -156,6 +165,8 @@ ul, ol {
   right: -10px;
 }
 
+/* ......... utils ........ */
 
-
-
+.relative {
+  position: relative;
+}
