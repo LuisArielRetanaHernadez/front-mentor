@@ -209,7 +209,18 @@ ul, ol {
   font-weight: 700;
 }
 
+.button { 
+  padding: .8rem .5rem;
+  font-weight: 700;
+  color: hsl(var(--hsl-white));
+  border: none;
+  background: hsl(var(--hsl-orange));
+}
+
 /* ......... utils ........ */
+.w-100 {
+  width: 100%;
+}
 
 .relative {
   position: relative;
