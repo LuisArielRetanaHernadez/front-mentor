@@ -239,6 +239,10 @@ ul, ol {
   align-items: center;
 }
 
+.aling-start {
+  align-items: flex-start;
+}
+
 .color-gray {
   color: hsl(var(--hsl-dark-grayish-blue));
 }
