@@ -208,6 +208,7 @@ ul, ol {
   color: hsl(var(--hsl-white));
   border: none;
   background: hsl(var(--hsl-orange));
+  cursor: pointer;
 }
 
 /* ......... utils ........ */
