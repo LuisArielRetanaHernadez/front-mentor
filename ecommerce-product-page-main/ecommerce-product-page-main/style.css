@@ -116,7 +116,8 @@ ul, ol {
 }
 
 .mobal-cart__title {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid;
+  border-bottom-color: hsl(var(--hsl-dark-grayish-blue));
   padding-bottom: 1rem;
 }
 
