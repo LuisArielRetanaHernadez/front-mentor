@@ -130,6 +130,7 @@ ul, ol {
 }
 
 .mobal-cart__item {
+  height: 50px;
   max-height: 50px;
 }
 
@@ -202,4 +203,16 @@ ul, ol {
 
 .relative {
   position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.direction-colum {
+  flex-direction: column;
+}
+
+.aling-center {
+  align-items: center;
 }
