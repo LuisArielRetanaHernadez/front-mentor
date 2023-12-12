@@ -280,7 +280,10 @@ ul, ol {
 
 .product__item--hover:hover {
   border: 3px solid hsl(var(--hsl-orange));
+}
 
+.product__item--hover:hover .product__item-img {
+  filter: opacity(50%);
 }
 
 /* ......... utils ........ */
