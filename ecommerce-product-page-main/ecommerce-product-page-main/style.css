@@ -116,6 +116,21 @@ ul, ol {
   /* bottom: 0; */
 }
 
+.mobal-cart--hover {
+  transition: .2s;
+}
+
+.mobal-cart--hover-opacity {
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s;
+}
+
+.mobal-cart--hover:hover .mobal-cart--hover-opacity {
+  opacity: 1;
+  visibility: visible;
+}
+
 .mobal-cart__title {
   border-bottom: 1px solid;
   border-bottom-color: hsl(var(--hsl-dark-grayish-blue));
