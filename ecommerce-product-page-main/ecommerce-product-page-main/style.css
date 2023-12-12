@@ -232,10 +232,20 @@ ul, ol {
 }
 
 /* page product */
+.prdocut__wrappe {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
 /* ......... utils ........ */
 .w-100 {
   width: 100%;
+}
+
+.w-50 {
+  width: 50%;
 }
 
 .relative {
