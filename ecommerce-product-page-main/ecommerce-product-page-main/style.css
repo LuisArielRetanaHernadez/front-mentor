@@ -295,6 +295,10 @@ ul, ol {
   color: hsl(var(--hsl-dark-grayish-blue));
 }
 
+.p-3-5rm {
+  padding: 3.5rem;
+}
+
 .mt-1rm {
   margin-top: 1rem;
 }
