@@ -264,13 +264,23 @@ ul, ol {
 .product__item {
   width: 110px;
   height: 110px;
-  object-fit: cover;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .product__item img {
-  width: inherit;
-  height: inherit;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product__item--hover {
+  transition: .2s;
+}
+
+.product__item--hover:hover {
+  border: 3px solid hsl(var(--hsl-orange));
+
 }
 
 /* ......... utils ........ */
