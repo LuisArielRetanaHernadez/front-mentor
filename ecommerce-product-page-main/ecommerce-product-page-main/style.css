@@ -173,13 +173,6 @@ ul, ol {
   align-items: center;
 }
 
-.icon--hover-black {
-  transition: all .2s;
-}
-
-.icon--hover-black:hover {
-  color: red;
-}
 
 .icon--cart-count {
   position: relative;
