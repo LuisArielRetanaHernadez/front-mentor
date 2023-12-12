@@ -234,7 +234,9 @@ ul, ol {
 /* page product */
 .product {
   display: flex;
+  justify-content: space-between;
 }
+
 .prdocut__wrappe {
   background-color: blue;
   display: flex;
@@ -261,6 +263,10 @@ ul, ol {
 
 .w-50 {
   width: 50%;
+}
+
+.w-45 {
+  width: 45%;
 }
 
 .relative {
