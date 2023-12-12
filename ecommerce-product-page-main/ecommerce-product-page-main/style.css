@@ -232,6 +232,9 @@ ul, ol {
 }
 
 /* page product */
+.product {
+  display: flex;
+}
 .prdocut__wrappe {
   background-color: blue;
   display: flex;
