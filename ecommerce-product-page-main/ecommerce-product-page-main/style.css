@@ -41,6 +41,17 @@ ul, ol {
   width: 100%;
 }
 
+/* container */
+.container {
+  width: 100%;
+  background-color: red;
+}
+
+.container--8-5 {
+  width: 85%;
+  margin: auto;
+}
+
 /* .... menu header .... */
 
 .nav-header {
