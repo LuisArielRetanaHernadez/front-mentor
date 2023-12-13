@@ -286,7 +286,11 @@ ul, ol {
   filter: opacity(50%);
 }
 /* ...... more producto ....... */
-
+.title-three {
+  color: hsl(var(--hsl-orange));
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 /* ......... utils ........ */
 .w-100 {
   width: 100%;
