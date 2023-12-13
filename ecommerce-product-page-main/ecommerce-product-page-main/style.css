@@ -285,6 +285,7 @@ ul, ol {
 .product__item--hover:hover .product__item-img {
   filter: opacity(50%);
 }
+/* ...... more producto ....... */
 
 /* ......... utils ........ */
 .w-100 {
@@ -333,6 +334,11 @@ ul, ol {
 
 .p-1-5rm {
   padding: 1.5rem;
+}
+
+.ptb-4-5rm {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .p-3-5rm {
