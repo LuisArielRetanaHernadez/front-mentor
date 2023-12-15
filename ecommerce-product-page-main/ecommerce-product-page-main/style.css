@@ -223,11 +223,17 @@ ul, ol {
 
 .button { 
   padding: .8rem .5rem;
+  text-align: center;
   font-weight: 700;
   color: hsl(var(--hsl-white));
   border: none;
   background: hsl(var(--hsl-orange));
   cursor: pointer;
+}
+
+.button--medium {
+  width: 100%;
+  padding: 1rem .7rem;
 }
 
 /* page product */
@@ -324,6 +330,10 @@ ul, ol {
   text-decoration:line-through ;
 }
 
+.product__buttons {
+  display: flex;
+}
+
 /* ......... utils ........ */
 .w-100 {
   width: 100%;
@@ -357,12 +367,20 @@ ul, ol {
   justify-content: space-between;
 }
 
+.just-center {
+  justify-content: center;
+}
+
 .aling-center {
   align-items: center;
 }
 
 .aling-start {
   align-items: flex-start;
+}
+
+.gap-15 {
+  gap: 15px;
 }
 
 .color-gray {
