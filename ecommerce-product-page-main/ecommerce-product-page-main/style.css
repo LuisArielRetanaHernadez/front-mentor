@@ -172,6 +172,14 @@ ul, ol {
   max-height: 90px;
 }
 
+.icon--increment {
+  padding: 0.5rem;
+}
+
+.icon--decrement {
+  padding: 0.5rem;
+}
+
 .icon--cart {
   width: 25px;
   height: 25px;
