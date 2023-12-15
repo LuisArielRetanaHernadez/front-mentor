@@ -301,6 +301,22 @@ ul, ol {
   color: hsl(var(--hsl-dark-grayish-blue));
   line-height: 25px;
 }
+
+.product__about-price {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 700;
+}
+
+.price__current, data {
+  font-size: 1.3rem;
+}
+.price__discount {
+  font-size: .9rem;
+  color: hsl(var(--hsl-orange));
+  background-color: hsl(var(--hsl-pale-orange));
+}
 /* ......... utils ........ */
 .w-100 {
   width: 100%;
