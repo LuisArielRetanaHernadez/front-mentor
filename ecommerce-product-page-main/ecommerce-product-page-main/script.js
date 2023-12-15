@@ -13,4 +13,30 @@ itemsList.forEach(item => {
   })
 
 })
-// item  507.15625  right  554.171875
+const valueStock = document.querySelector('#stock-product')
+
+
+let stateStock = +valueStock.textContent
+
+const btnIncrement = document.querySelector('#btn-increment')
+const btnDecrement = document.querySelector('#btn-decrement')
+
+const setIncrement = value => {
+  if (value < 0) return 0
+  return value + 1
+}
+
+const setDecrement = value => {
+  if (value <=0) return 0
+  return value - 1
+}
+
+btnDecrement.addEventListener('click', () => {
+  valueStock.textContent = setDecrement(stateStock)
+  stateStock = +valueStock.textContent
+})
+
+btnIncrement.addEventListener('click', () => {
+  valueStock.textContent = setIncrement(stateStock)
+  stateStock = +valueStock.textContent
+})

@@ -52,7 +52,7 @@
                   <h3>Cart</h3>
                  </div>
 
-                  <ul class="">
+                  <ul id="list-cart" class="">
                     <li class="mobal-cart__item mt-1rm flex aling-center just-between">
                       <div class="mobal-cart__wrappe-img rounded-5">
                         <img class="rounded-inherit" src="/images/image-product-1-thumbnail.jpg" alt="">
@@ -130,12 +130,12 @@
 
       <div class="product__buttons mt-1-5rm flex aling-center just-between">
         <div class="w-45 p-1-5rm flex aling-center just-between">
-          <span class="icon icon--increment"><img src="/images/icon-minus.svg" alt=""></span>
-          <span>0</span>
-          <span class="icon icon--decrement"><img src="/images/icon-plus.svg" alt=""></span>
+          <span id="btn-decrement" class="icon icon--increment"><img src="/images/icon-minus.svg" alt=""></span>
+          <span id="stock-product">0</span>
+          <span id="btn-increment" class="icon icon--decrement"><img src="/images/icon-plus.svg" alt=""></span>
         </div>
         <div class="w-50">
-          <button class="button button--medium rounded-15
+          <button id="bt-add-cart" class="button button--medium rounded-15
            flex aling-center just-center gap-15">
             <img src="/images/icon-cart.svg" alt="">
             Add to cart
