@@ -412,6 +412,10 @@ ul, ol {
   margin-top: 1rem;
 }
 
+.mt-1-5rm {
+  margin-top: 1.5rem;
+}
+
 .rounded-5 {
   border-radius: 5px;
 }
