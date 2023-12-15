@@ -170,14 +170,28 @@ ul, ol {
   height: 50px;
   max-width: 90px;
   max-height: 90px;
+  cursor: pointer;
 }
 
 .icon--increment {
+  width: auto;
   padding: 0.5rem;
 }
 
+.icon--increment img { 
+  width: 100%;
+  object-fit: cover;
+}
+
+
 .icon--decrement {
+  width: auto;
   padding: 0.5rem;
+}
+
+.icon--decrement img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .icon--cart {
