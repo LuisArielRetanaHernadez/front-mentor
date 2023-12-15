@@ -312,11 +312,18 @@ ul, ol {
 .price__current, data {
   font-size: 1.3rem;
 }
+
 .price__discount {
   font-size: .9rem;
   color: hsl(var(--hsl-orange));
   background-color: hsl(var(--hsl-pale-orange));
 }
+
+.price__old {
+  color: hsl(var(--hsl-dark-grayish-blue));
+  text-decoration:line-through ;
+}
+
 /* ......... utils ........ */
 .w-100 {
   width: 100%;
