@@ -16,33 +16,40 @@
 </head>
 <body>
 
-  <section>
-    <div>
-      <img>
-    </div>
-    <div>
-      <span>Learning</span>
-      <p>
-        Published 21 Dec 2023
-      </p>
-    </div>
-    <div>
-      <h3>
-        HTML & CSS foundations
-      </h3>
-      <p>
-        These languages are the backbone of every website, defining structure, content, and prese
-      </p>
-    </div>
-
-    <footer>
-      <div>
-        <div>
-          <img src="" alt="">
-        </div>
-        <p>Greg Hooper</p>
+  <section class="container container--flex-center">
+    <article class="card">
+      <div class="card__img">
+        <img class="card__image">
       </div>
-    </footer>
+
+      <div class="card__date">
+        <span class="card__tag">Learning</span>
+        <p class="card__date-time">
+          Published 21 Dec 2023
+        </p>
+      </div>
+
+      <div class="card__content">
+        <h3 class="card__title card__title--hover-yellow">
+          HTML & CSS foundations
+        </h3>
+        <p class="card__description">
+          These languages are the backbone of every website, defining structure, content, and prese
+        </p>
+      </div>
+
+      <footer class="card__footer">
+        <div class="card__avatar">
+          <div class="card__avatar-img">
+            <img class="card__avatar-image" src="" alt="">
+          </div>
+          <p class="card__avatar-name">Greg Hooper</p>
+        </div>
+
+      </footer>
+
+    </article>
+    
   </section>
  
 </body>
