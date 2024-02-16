@@ -67,6 +67,12 @@ body, * {
   display: inline-block;
 }
 
+/* .... card__content .... */
+.card__title {
+  font-weight: 800;
+  font-size: 23px;
+}
+
 /* ..... roundes ..... */
 .rounded-10 {
   border-radius: 10px;
