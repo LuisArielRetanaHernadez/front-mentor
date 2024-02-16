@@ -46,6 +46,17 @@ body, * {
   box-shadow: 10px 10px 0px 1px black;
 }
 
+/* ..... card imagen ..... */
+
+.card__img {
+  width: 100%;
+}
+
+.card__img .card__image {
+  width: 100%;
+  object-fit: cover;
+}
+
 /* ..... roundes ..... */
 .rounded-10 {
   border-radius: 10px;
