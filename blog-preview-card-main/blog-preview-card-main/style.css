@@ -2,10 +2,10 @@
 
 :root {
   /* colors */
-  --hsl-yellow: (47, 88%, 63%);
+  --hsl-yellow: 47, 88%, 63%;
   --hsl-white: 0, 0%, 100%;
-  --hsl-grey: (0, 0%, 50%);
-  --hsl-black: (0, 0%, 7%)
+  --hsl-grey: 0, 0%, 50%;
+  --hsl-black: 0, 0%, 7%
 
   /* font-size */
   --font-size-16: 16px;
