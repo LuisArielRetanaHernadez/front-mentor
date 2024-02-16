@@ -119,3 +119,9 @@ body, * {
 .ml-15 {
   margin-left: 15px;
 }
+
+/* ..... cursor ..... */
+
+.cursor-pointer {
+  cursor: pointer;
+}
