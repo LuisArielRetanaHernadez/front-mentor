@@ -87,6 +87,10 @@ body, * {
   object-fit: cover;
 }
 
+.card__avatar-name {
+  font-weight: 800;
+}
+
 /* ..... roundes ..... */
 .rounded-10 {
   border-radius: 10px;
@@ -100,4 +104,7 @@ body, * {
 /* ..... margin ..... */
 .mb-15 {
   margin-bottom: 15px;
+}
+.ml-5 {
+  margin-left: 15px;
 }
