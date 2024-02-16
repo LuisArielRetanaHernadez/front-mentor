@@ -67,6 +67,10 @@ body, * {
   display: inline-block;
 }
 
+.card__date-time {
+  font-weight: 600;
+}
+
 /* .... card__content .... */
 .card__title {
   font-weight: 800;
