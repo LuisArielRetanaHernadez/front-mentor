@@ -34,8 +34,14 @@ body, * {
   justify-content: center;
 }
 
+/* ...... card ...... */
+
 .card {
   max-width: 375px;
   border: 1px solid;
   background: hsl(var(--hsl-white));
+}
+
+.card--shadow-left { 
+  box-shadow: 10px 10px 0px 1px black;
 }
