@@ -77,6 +77,13 @@ body, * {
   font-size: 23px;
 }
 
+.card__title--hover-yellow {
+  color: currentColor;
+}
+.card__title--hover-yellow:hover {
+  color: hsl(var(--hsl-yellow));
+}
+
 /* .... card avatar .... */
 .card__avatar {
   display: flex;
