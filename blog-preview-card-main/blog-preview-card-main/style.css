@@ -3,7 +3,7 @@
 :root {
   /* colors */
   --hsl-yellow: (47, 88%, 63%);
-  --hsl-white: (0, 0%, 100%);
+  --hsl-white: 0, 0%, 100%;
   --hsl-grey: (0, 0%, 50%);
   --hsl-black: (0, 0%, 7%)
 
@@ -32,4 +32,10 @@ body, * {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card {
+  max-width: 375px;
+  border: 1px solid;
+  background: hsl(var(--hsl-white));
 }
