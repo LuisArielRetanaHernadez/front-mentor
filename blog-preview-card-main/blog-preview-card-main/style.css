@@ -73,6 +73,20 @@ body, * {
   font-size: 23px;
 }
 
+/* .... card avatar .... */
+.card__avatar {
+  display: flex;
+  align-items: center;
+}
+
+.card__avatar-img { 
+  width: 40px;
+}
+.card__avatar-img .card__avatar-image { 
+  width: 100%;
+  object-fit: cover;
+}
+
 /* ..... roundes ..... */
 .rounded-10 {
   border-radius: 10px;
