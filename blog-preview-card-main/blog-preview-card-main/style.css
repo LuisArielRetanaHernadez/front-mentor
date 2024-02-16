@@ -57,6 +57,15 @@ body, * {
   object-fit: cover;
 }
 
+/* .... card data .... */
+.card__tag {
+  padding: 4px 10px;
+  color: hsl(var(--hsl-black));
+  font-weight: 700;
+  border-radius: 5px;
+  background: hsl(var(--hsl-yellow));
+}
+
 /* ..... roundes ..... */
 .rounded-10 {
   border-radius: 10px;
